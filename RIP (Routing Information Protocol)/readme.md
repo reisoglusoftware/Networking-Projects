@@ -10,9 +10,9 @@
 
 * RIP’in iki sürümü vardır:
 
---- RIPv1: Sınıfsal, subnet bilgisi taşımaz.
+* * RIPv1: Sınıfsal, subnet bilgisi taşımaz.
 
---- RIPv2: Sınıfsızdır, subnet ve yönlendirme bilgilerini taşır. Multicast kullanır (224.0.0.9).
+* * RIPv2: Sınıfsızdır, subnet ve yönlendirme bilgilerini taşır. Multicast kullanır (224.0.0.9).
 
 
 Router> enable					                    | Yetkili moda geçmek için kullanılır.
