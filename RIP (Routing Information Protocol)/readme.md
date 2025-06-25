@@ -1,3 +1,5 @@
+<img src="https://github.com/reisoglusoftware/Networking-Projects/blob/main/RIP%20(Routing%20Information%20Protocol)/RIP.png">
+
 # RIP (Routing Information Protocol) Nedir?
 
 * RIP, en eski mesafe vektör yönlendirme protokollerinden biridir.
