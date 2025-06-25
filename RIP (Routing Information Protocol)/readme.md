@@ -19,7 +19,7 @@
 ---
 
 ## CLI Kodları
-|KODLAR|ANLAMLARI|
+|KOMUTLAR|ANLAMLARI|
 |-|-|
 |`Router> enable`	|Yetkili moda geçmek için kullanılır.|
 |`Router# configure terminal`|Global yapılandırma moduna girilir.|
@@ -36,25 +36,10 @@
 
 ## RIP Doğrulama Komutları
 
-Tüm yönlendirme tablosunu görmek için:
-* `Router# show ip route`
+|KOMUTLAR|ANLAMLARI|
+|-|-|
+|`Router# show ip route`|Tüm yönlendirme tablosunu görmek için|
+|`Router# show ip protocols`|RIP komşularını ve gönderilen/alınan rotaları görmek için|
+|`Router# debug ip rip`|Arayüzün RIP mesajı gönderip alıp almadığını kontrol etmek için|
 
-RIP komşularını ve gönderilen/alınan rotaları görmek için:
-* `Router# show ip protocols`
-
-Arayüzün RIP mesajı gönderip alıp almadığını kontrol etmek için:
-* `Router# debug ip rip`
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
