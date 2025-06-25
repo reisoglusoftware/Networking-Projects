@@ -18,7 +18,7 @@
 
 ---
 
-## CLI Kodları
+## CLI Komutları
 |KOMUTLAR|ANLAMLARI|
 |-|-|
 |`Router> enable`	|Yetkili moda geçmek için kullanılır.|
