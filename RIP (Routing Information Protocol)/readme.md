@@ -14,6 +14,7 @@
 
 * * RIPv2: Sınıfsızdır, subnet ve yönlendirme bilgilerini taşır. Multicast kullanır (224.0.0.9).
 
+---
 
 Router> enable					                    | Yetkili moda geçmek için kullanılır.
 Router# configure terminal		            	| Global yapılandırma moduna girilir.
