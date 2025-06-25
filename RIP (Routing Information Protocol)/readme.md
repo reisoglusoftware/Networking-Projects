@@ -19,11 +19,15 @@
 ---
 
 ## CLI Kodları
-|0|
-|-|
-|q|
+|KODLAR|ANLAMLARI|
+|-|-|
+|`Router> enable`	|Yetkili moda geçmek için kullanılır.|
+|||
+|||
 
-* `Router> enable`					                    | Yetkili moda geçmek için kullanılır.
+
+
+* 				                    | 
 * `Router# configure terminal`		            	| Global yapılandırma moduna girilir.
 * `Router(config)# router rip`		            	| RIP yönlendirme protokolü başlatılır.
 * `Router(config-router)# version 2`	        	| RIP'in 2. sürümü kullanılır. Bu sürüm subnet bilgisi ile çalışır.
