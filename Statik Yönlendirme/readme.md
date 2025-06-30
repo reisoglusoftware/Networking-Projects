@@ -100,7 +100,7 @@ Statik yönlendirmede kayıtlar bir yönetici ( router ) tarafından silinmelidi
 |`enable`|Router0'ı ayrıcalıklı EXEC moduna geçirir.|
 |`configure terminal`|Router0'ı global yapılandırma moduna geçirir.|
 |`ip route 192.30.30.0 255.255.255.0 192.20.20.2`|Bu, Router0 için statik bir yönlendirme girdisi ekler.|
-|`a`||a|a||
+|`a`|a|a|
 |``||
 |``||
 |``||
