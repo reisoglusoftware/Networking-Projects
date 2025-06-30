@@ -31,6 +31,16 @@ Rotalar değişmediği sürece, router her zaman tanımlı olan yolu kullanır.
 
 ❌ Bakım maliyeti yüksektir: Her değişiklikte manuel müdahale gerekir.
 
+# Statik Yönlendirme Türleri
+
+|Tür|Açıklama|
+|-|-|
+|`Doğrudan (Directly Connected)`|Sonraki yönlendirici yerine fiziksel çıkış arayüzü tanımlanır.|
+|`İndirekt (Indirect/Next-hop)`|Çıkış arabirimi yerine, bir sonraki yönlendiricinin IP adresi tanımlanır.|
+|`Fully Specified Route`|Hem çıkış arabirimi hem de next-hop tanımlanır.|
+
+---
+
 Statik yönlendirmede kayıtlar bir yönetici ( router ) tarafından silinmelidir. Statik yönlendirmede yönlendiricilere lokalde bağlı olmayan ağlar tek tek tanıtılır. Dinamik yönlendirmede böyle bir zorunluluk bulunmamaktadır. 
 
 	Statik yönlendirmede 3 meseleyi göz önünde bulundurmalıyız:
