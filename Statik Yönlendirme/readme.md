@@ -7,7 +7,7 @@ Cisco cihazlarında Statik Yönlendirme (Static Routing), yönlendiricilere (rou
 
 ---
 
-🔹 # Statik Yönlendirme Nedir?
+# Statik Yönlendirme Nedir?
 Statik yönlendirme, yönlendirme tablosuna manuel olarak girilen, sabit rota bilgileridir. Bu yönlendirme türünde:
 
 Bir ağ yöneticisi, her hedef ağ için hangi çıkış arabiriminin (interface) ya da sonraki yönlendiricinin (next-hop) kullanılacağını açıkça belirtir.
@@ -16,7 +16,8 @@ Rotalar değişmediği sürece, router her zaman tanımlı olan yolu kullanır.
 
 ---
 
-🔹 # Statik Yönlendirme Avantajları
+# Statik Yönlendirme Avantajları
+
 ✅ Kaynak dostudur: CPU ve bellek tüketimi düşüktür.
 
 ✅ Güvenlidir: Saldırganların yönlendirme protokollerini manipüle etme riski yoktur.
@@ -25,7 +26,8 @@ Rotalar değişmediği sürece, router her zaman tanımlı olan yolu kullanır.
 
 ---
 
-🔹 # Statik Yönlendirme Dezavantajları
+# Statik Yönlendirme Dezavantajları
+
 ❌ Yönetimi zordur: Büyük ağlarda yapı karmaşık hale gelir.
 
 ❌ Esnek değildir: Bir link arızasında yeni rota öğrenemez.
