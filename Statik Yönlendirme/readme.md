@@ -100,6 +100,13 @@ Statik yönlendirmede kayıtlar bir yönetici ( router ) tarafından silinmelidi
 |`enable`|Router0'ı ayrıcalıklı EXEC moduna geçirir.|
 |`configure terminal`|Router0'ı global yapılandırma moduna geçirir.|
 |`ip route 192.30.30.0 255.255.255.0 192.20.20.2`|Bu, Router0 için statik bir yönlendirme girdisi ekler.|
+
+	192.30.30.0: Hedef ağın ağ adresidir (üçüncü ağ).
+
+	255.255.255.0: Hedef ağın alt ağ maskesidir.
+
+	192.20.20.2: Sonraki atlama (next-hop) IP adresidir. Bu, Router1'in Serial0/2/0 arayüzünün IP adresidir. Bu komut, Router0'a, 192.30.30.0 ağına ulaşmak için paketleri 192.20.20.2 adresine (yani Router1'e) göndermesi gerektiğini söyler.
+
 |`a`|a|a|
 |``||
 |``||
