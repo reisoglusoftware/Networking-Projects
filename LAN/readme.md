@@ -68,8 +68,42 @@ LAN, yani Yerel Alan Ağı, sınırlı bir coğrafi alanda (ev, ofis, bina gibi)
 |`Router2(config-if)# exit`|Arayüz konfigürasyon modundan çıkar, global konfigürasyon moduna geri döner.|
 |`Router2(config)# do write`|Yapılan LAN yapılandırmasını kalıcı belleğe kaydeder.|
 
+## HTTP Server Settings
 
+<img src="https://github.com/reisoglusoftware/Networking-Projects/blob/main/LAN/HTTP%20Server%20Settings.png">
 
+## HTTP Server FastEthernet0 Settings
 
+<img src="https://github.com/reisoglusoftware/Networking-Projects/blob/main/LAN/HTTP%20Server%20FastEthernet0%20Settings.png">
 
+## HTTP Server Service Settings
 
+<img src="https://github.com/reisoglusoftware/Networking-Projects/blob/main/LAN/HTTP%20Server%20Services.png">
+
+## DNS Server Settings
+
+<img src="https://github.com/reisoglusoftware/Networking-Projects/blob/main/LAN/DNS%20Server%20Settings.png">
+
+## DNS Server FastEthernet0 Settings
+
+<img src="https://github.com/reisoglusoftware/Networking-Projects/blob/main/LAN/DNS%20Server%20FastEthernet0%20Settings.png">
+
+## DNS Server Service Settings
+
+<img src="https://github.com/reisoglusoftware/Networking-Projects/blob/main/LAN/DNS%20Server%20Services%20Settings.png">
+
+## DHCP Server Settings 
+
+<img src="https://github.com/reisoglusoftware/Networking-Projects/blob/main/LAN/DHCP%20Server%20Settings.png">
+
+## DHCP Server FastEthernet0 Settings
+
+<img src="https://github.com/reisoglusoftware/Networking-Projects/blob/main/LAN/DHCP%20Server%20FastEthernet0%20Settings.png">
+
+## DHCP Server Service Settings
+
+<img src="https://github.com/reisoglusoftware/Networking-Projects/blob/main/LAN/DHCP%20Server%20Services%20Settings.png">
+
+## Web Page
+
+<img src="https://github.com/reisoglusoftware/Networking-Projects/blob/main/LAN/Web%20Page.png">
