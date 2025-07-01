@@ -6,37 +6,67 @@ LAN, yani Yerel Alan Ağı, sınırlı bir coğrafi alanda (ev, ofis, bina gibi)
 
 ## LAN Özellikleri:
 
-    Küçük coğrafi alanı kapsar.
+    1 - Küçük coğrafi alanı kapsar.
 
-    Yüksek veri aktarım hızı (genellikle 100 Mbps – 10 Gbps arası).
+    2 - Yüksek veri aktarım hızı (genellikle 100 Mbps – 10 Gbps arası).
 
-    Düşük gecikme (latency).
+    3 - Düşük gecikme (latency).
 
-    Kablolu (Ethernet) veya kablosuz (Wi-Fi) bağlantı olabilir.
+    4 - Kablolu (Ethernet) veya kablosuz (Wi-Fi) bağlantı olabilir.
 
-    Cihazlar genellikle aynı ağ protokolünü kullanır (çoğunlukla TCP/IP).
+    5 - Cihazlar genellikle aynı ağ protokolünü kullanır (çoğunlukla TCP/IP).
 
 ## LAN’ın Temel Bileşenleri:
 
-    Switch (Anahtar): Cihazlar arasında veri çerçevelerini yönlendirir.
+    1 - Switch (Anahtar): Cihazlar arasında veri çerçevelerini yönlendirir.
 
-    Router (Yönlendirici): LAN’ları birbirine veya internete bağlar.
+    2 - Router (Yönlendirici): LAN’ları birbirine veya internete bağlar.
 
-    NIC (Network Interface Card): Her cihazın ağa bağlanmasını sağlar.
+    3 - NIC (Network Interface Card): Her cihazın ağa bağlanmasını sağlar.
 
-    Kablolar: Ethernet kablosu (Cat5e, Cat6), fiber optik kablo vb.
+    4 - Kablolar: Ethernet kablosu (Cat5e, Cat6), fiber optik kablo vb.
 
-    IP Adresi: Ağdaki cihazların adreslenmesi için gereklidir.
+    5 - IP Adresi: Ağdaki cihazların adreslenmesi için gereklidir.
 
 ---
 
+## Router0
+
+|Komut|Açıklama|
+|-|-|
+|`Router0> enable`|Kullanıcı modundan (user EXEC mode) privileged EXEC mode’a geçiş yapar.|
+|`Router0# configure terminal`|Privileged EXEC moddan global configuration mode’a geçiş sağlar.|
+|`Router0(config)# interface fastEthernet 0/0`|Konfigürasyon modunda, FastEthernet 0/0 arayüzüne girer.|
+|`Router0(config-if)# ip address 192.168.10.1 255.255.255.0`|Seçilen arayüze IP adresi ve alt ağ maskesi atanır.|
+|`Router0(config-if)# no shutdown`|Arayüzü aktif hale getirir (varsayılan olarak router arayüzleri kapalıdır).|
+|`Router0(config-if)# exit`|Arayüz konfigürasyon modundan çıkar, global konfigürasyon moduna geri döner.|
+|`Router0(config)# do write`|Yapılan LAN yapılandırmasını kalıcı belleğe kaydeder.|
 
 
+## Router1
+
+|Komut|Açıklama|
+|-|-|
+|`Router1> enable`|Kullanıcı modundan (user EXEC mode) privileged EXEC mode’a geçiş yapar.|
+|`Router1# configure terminal`|Privileged EXEC moddan global configuration mode’a geçiş sağlar.|
+|`Router1(config)# interface fastEthernet 1/0`|Konfigürasyon modunda, FastEthernet 1/0 arayüzüne girer.|
+|`Router1(config-if)# ip address 192.168.20.1 255.255.255.0`|Seçilen arayüze IP adresi ve alt ağ maskesi atanır.|
+|`Router1(config-if)# no shutdown`|Arayüzü aktif hale getirir (varsayılan olarak router arayüzleri kapalıdır).|
+|`Router1(config-if)# exit`|Arayüz konfigürasyon modundan çıkar, global konfigürasyon moduna geri döner.|
+|`Router1(config)# do write`|Yapılan LAN yapılandırmasını kalıcı belleğe kaydeder.|
 
 
+## Router2
 
-
-
+|Komut|Açıklama|
+|-|-|
+|`Router2> enable`|Kullanıcı modundan (user EXEC mode) privileged EXEC mode’a geçiş yapar.|
+|`Router2# configure terminal`|Privileged EXEC moddan global configuration mode’a geçiş sağlar.|
+|`Router2(config)# interface fastEthernet 2/0`|Konfigürasyon modunda, FastEthernet 2/0 arayüzüne girer.|
+|`Router2(config-if)# ip address 192.168.30.1 255.255.255.0`|Seçilen arayüze IP adresi ve alt ağ maskesi atanır.|
+|`Router2(config-if)# no shutdown`|Arayüzü aktif hale getirir (varsayılan olarak router arayüzleri kapalıdır).|
+|`Router2(config-if)# exit`|Arayüz konfigürasyon modundan çıkar, global konfigürasyon moduna geri döner.|
+|`Router2(config)# do write`|Yapılan LAN yapılandırmasını kalıcı belleğe kaydeder.|
 
 
 
