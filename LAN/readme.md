@@ -28,6 +28,7 @@ LAN, yani Yerel Alan Ağı, sınırlı bir coğrafi alanda (ev, ofis, bina gibi)
 
     IP Adresi: Ağdaki cihazların adreslenmesi için gereklidir.
 
+---
 
 
 
