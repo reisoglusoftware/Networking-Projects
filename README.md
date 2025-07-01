@@ -5,4 +5,7 @@
 <img src="https://github.com/reisoglusoftware/Networking-Projects/blob/main/RIP%20(Routing%20Information%20Protocol)/RIP.png">
 
 # STATİK YÖNLENDİRME
-<img SRC="https://github.com/reisoglusoftware/Networking-Projects/blob/main/Statik%20Y%C3%B6nlendirme/Statik%20Y%C3%B6nlendirme.png">
+<img src="https://github.com/reisoglusoftware/Networking-Projects/blob/main/Statik%20Y%C3%B6nlendirme/Statik%20Y%C3%B6nlendirme.png">
+
+# LOCAL AREA NETWORK
+<img src="https://github.com/reisoglusoftware/Networking-Projects/blob/main/LAN/LAN.png">
